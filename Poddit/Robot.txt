@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Medlem.html
+Disallow: /Main.html
+
+Sitemap: http://poddit/Index.html/sitemap.xml

@@ -1,0 +1,86 @@
+.container-custom{
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+
+
+
+#imgor {
+	height: 100px;
+	width: 120px;
+	background-color: #6EB1AB;
+	box-shadow: 5px 5px 10px black;
+	
+}
+
+.btn-primary{
+	background-color:black;
+}
+
+.btn-custom2{
+	color: black;
+	background-color:#6EB1AB;
+	border-color: #7E7E7E;
+	
+}
+
+	.btn-custom2:hover{
+		color:grey;
+	}
+	
+	.btn-custom22{
+	color: black;
+	background-color:#F3B747;
+	border-color: #7E7E7E;
+	box-shadow: 1px 1px 7px black;
+}
+
+	.btn-custom22:hover{
+		color:grey;
+	}
+
+	#terms{
+		font-size:11px;
+		font-weight:;
+		text-align:left;
+	}
+
+	#alignCenter{
+		text-align:center;
+	}
+	  
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+
+
+
+      @media (max-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+		
+		.container-custom{
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  
+		}
+		
+	
+      }
