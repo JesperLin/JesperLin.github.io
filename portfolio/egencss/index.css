@@ -1,0 +1,392 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: ;
+  color: #2C2C2C;
+  margin:none;
+  
+
+}
+
+
+/* NAVBAR */
+.container-fluid{
+	
+	padding-left:20px;
+	
+
+}
+
+.navbar-brand{
+	font-size:30px;
+	text-decoration: underline;
+	text-underline-position: under;
+	margin-left:20px;
+
+	
+}
+
+.nav-link{
+	font-size:15px;
+	padding-top:20px;
+	margin-left:20px;
+	
+
+	
+}
+/* NAVBAR END */
+
+/*container i bildspel*/
+.container-bildSpel{
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+/*container för hela sidan*/
+.container-custom2{
+	
+	
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+
+
+
+.col-sm-7{
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+}
+
+.col-xs-12{
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	
+}
+
+/*portfoilio container*/
+
+.jumbotron2 {
+	
+	background-color: white;
+	border-radius: 4px;
+	padding-top:10px;
+	width: 100%;
+	margin-top:2rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	border: 1.5px solid #D5D5D5;
+	color:black;
+	
+}
+
+.jumbotron2:hover{
+	background-color:#F0F0F0;
+}
+
+h1{
+	text-align:center;
+}
+h3{
+	text-align:center;
+	padding:10px;
+	font-weight:400;
+	margin-bottom:20px;
+	color:black;
+	
+}
+
+/*KNAPP I CAROUSEL*/
+.klick{
+  background-color: ;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  width:100%;
+  
+
+  border-radius:3px;
+ 
+}
+.klick:hover{
+	color:black;
+	background-color:#F0F0F0;
+	text-decoration:none;
+	
+}
+/*SLUT PÅ KNAPP I CAROUSEL*/
+
+.osynlig{
+	visibility:hidden;
+	
+}
+.d-block-custom{
+	width:100%;
+	height:100%;
+	object-fit: contain;
+}
+
+hr{
+
+background-color:#9A9A9A;
+margin:0px;
+width:100%;
+
+}
+
+
+/* ARROWS IN CAROUSELS  V*/
+.carousel-control-next{
+	width:10%;
+	height:20%;
+	margin-top:auto;
+	margin-bottom:auto;
+
+	
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='2' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+    background-color:white;
+	width:60%;
+	height:100%;
+	border-radius:3px;
+	color:yellow;
+	
+	
+	
+}
+.carousel-control-next-icon:hover{
+	
+	
+	
+}
+
+.carousel-control-prev{
+	width:10%;
+	height:20%;
+	margin-top:auto;
+	margin-bottom:auto;
+	
+
+	
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='2' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+    background-color:white;
+	width:60%;
+	height:100%;
+	border-radius:3px;
+	color:yellow;
+	transform: rotate(180deg);
+	
+	
+	
+}
+.carousel-control-prev-icon:hover{
+	
+	
+	
+}
+
+/* END OF 	ARROWS IN CAROUSELS  V*/
+
+
+.navbar-toggler{
+	background-color:;
+	color:white;
+	
+
+}
+
+
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 1rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 12rem;
+  
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 12rem;
+  border-radius:1px;
+  
+
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+
+
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+
+
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+	  
+	  
+	  
+	
+	  
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+/* MEDIUM SCREEN */
+@media (max-width: 62em) {
+	
+	
+	body{
+	margin-bottom:40px;
+}
+
+
+	
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+  
+  
+  .nav-link{
+	font-size:15px;
+	padding-top:20px;
+	margin-left:15px;
+	
+}
+.nav-link{
+	width:30%;
+	
+
+}
+
+.jumbotron2{
+	margin-bottom:30px;
+	margin-top:;
+}
+
+
+
+/* SMALL SCREEN */
+@media (max-width: 40em) {
+	
+body{
+	margin-bottom:40px;
+	
+	
+}
+
+.nav-link{
+	font-size:15px;
+	padding-top:20px;
+	
+	
+}
+.container-navBar{
+	
+	width: 100%;
+	padding-right: var(--bs-gutter-x, .75rem);
+	padding-left: var(--bs-gutter-x, .75rem);
+	margin-right: 10px;
+
+
+}
+
+
+
+  /* Bump up size of carousel content 
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+*/
+
+
