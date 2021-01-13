@@ -1,0 +1,299 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Padding below the footer and lighter body text */
+
+body {
+	padding-bottom: 0rem;
+	color: #5a5a5a;
+}
+/*-------------------------------------------------- */
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+h6 {
+	color:#EEEEEE;
+	padding-right:20px;
+	
+}
+
+.navbar {
+	background-image: none;
+}
+
+.nav-item-custom{
+	visibility: hidden;
+}
+
+
+/* navbar bakgrund*/
+
+.bg-custom {
+	background-color: #1F1F1F;
+	height:auto;
+	
+}
+/* knappar i flöde bakgrund*/
+
+.btn-custom {
+	background-color: #6EB1AB;
+	
+}
+.btn-custom:hover {
+	background-color: #52A08F;
+	font-size:105%;
+}
+/* knappar sign up bakgrund*/
+
+.btn-custom1 {
+	background-color: #6EB1AB;
+}
+.btn-custom1:hover {
+	background-color: #52A08F;
+}
+/* knapp login bakgrund*/
+
+.btn-custom2{
+	color: #7E7E7E;
+	border-color: #7E7E7E;
+}
+.btn-custom2:hover {
+	background-color:grey;
+}
+/* knapp inne i login bakgrund*/
+
+.btn-custom3 {
+	background-color: #F6871F;
+}
+/*Olika typer av container, margin på sektioner*/
+.container-custom {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.containerFt {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #e9ecef;
+}
+
+.container-custom2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+/*Olika typer av jumbotron, indelar sektioner*/
+.jumbotron {
+	background-color: #5A95C3;
+	color: white;
+}
+.jumbotron-custom {
+	border-radius: 5px;
+	padding: 10px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jumbotron-custom2 {
+	padding: 4rem 2rem;
+	background-color: #e9ecef;
+	border-radius: .3rem;
+	margin-left: 20px;
+	margin-right: ;
+}
+.jumbotron-custom22 {
+	padding: 1.5rem 1rem;
+	background-color: #e9ecef;
+	border-radius: .3rem;
+	margin-left: 20px;
+	margin-right: ;
+}
+.TTT {
+	padding-top: 10px;
+	padding-bottom: 3px;
+	margin-bottom: 5rem;
+	margin-top: 3rem;
+	border-radius: 60px;
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-fluid-custom {
+	max-width: 50%;
+	height: auto;
+}
+
+/*Align text*/
+#textRight {
+	text-align: right;
+}
+#mitten {
+	text-align: center;
+}
+#override1 {
+	border-radius: 20px;
+}
+
+/*Bild i navbar*/
+#imgor {
+	height: 50px;
+	width: 60px;
+	background-color: #6EB1AB;
+	margin-right: 7px;
+	box-shadow: 3px 3px 10px black;
+}
+#profpic {
+	height: 70px;
+	width: 70px;
+	background-color: #6EB1AB;
+	margin-right: 7px;
+	border:solid 2px #6EB1AB;
+	border-radius:60px;
+	
+}
+
+
+/*länkar*/
+a.two {
+	color: grey;
+}
+a.two:hover {
+	color: black;
+	width: 6em;
+	height: 3.3em;
+}
+a {
+	color: #000;
+}
+a:hover {
+	color: #959595;
+}
+
+
+a.pop:hover {
+	font-size: 110%;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+	
+	margin-bottom:10rem;
+	/* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider-custom {
+	
+	margin-bottom:0rem;
+	margin-top:7rem;
+	/* Space out the Bootstrap <hr> more */
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/*MOBILSTORLEK*/
+@media (max-width: 767px) {
+	
+	h6  {
+	
+	padding-top:20px;
+	
+}
+	/* Bump up size of carousel content */
+	.carousel-caption p {
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
+	}
+	.btn-custom {
+		background-color: #6EB1AB;
+		margin-top: 1rem;
+		margin-left:0px;
+	}
+	.btn-custom2 {
+		background-color: #F187E5;
+		margin-top: 1rem;
+	}
+	#textRight {
+		text-align: center;
+	}
+	#textCenter {
+		text-align: center;
+	}
+	.img-fluid-custom {
+		max-width: 50%;
+		height: auto;
+	}
+	.jumbotron-custom {
+		width: 20%;
+		height: auto;
+		padding: none;
+		margin-bottom: none;
+		background-color: none;
+		border-radius: none;
+	}
+	.jumbotron-custom2 {
+		padding: 2rem 1rem;
+		margin-bottom: 2rem;
+		background-color: #e9ecef;
+		border-radius: .3rem;
+	}
+	.jumbotron-custom2 {
+		margin-left: rem;
+		text-align: center;
+	}
+	
+	.dropdown{
+		display:none;
+	}
+	.nav-item-custom{
+	visibility: visible;
+	margin-top:0.3rem;
+	
+
+}
+
+	
+}
+
+/*MELLANSTORLEK*/
+@media (min-width: 500px) {
+	/* Bump up size of carousel content */
+	.carousel-caption p {
+		margin-bottom: 1.25rem;
+		font-size: 1.25rem;
+		line-height: 1.4;
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+
+
+}
+@media (min-width: 62em) {
+	.featurette-heading {
+		margin-top: 7rem;
+	}
+}

@@ -1,0 +1,118 @@
+
+
+body {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  color:white;
+ 
+}
+
+/*styling av formen */
+input[type=text], [type=password]  {
+  width: 80%;
+  height:45px;
+	padding:5px;
+  margin-bottom:10px;
+  box-sizing: border-box;
+  
+}
+
+input[type=checkbox]  {
+
+  margin-bottom:25px;
+}
+
+input[type=submit]  {
+	box-sizing: border-box;
+	width:80%;
+	height:50px;
+	margin-bottom:10px;
+	background-color:#6EB1AB;
+	border-radius:5px;
+	border:none;
+	box-shadow: 1px 1px 7px black;
+	
+}
+
+input[type=submit]:hover  {
+	
+	background-color:#598E8A;
+
+	
+}
+
+/*Slut på styling av formen  */
+
+
+/* Bild */
+#imgor {
+	height: 100px;
+	width: 120px;
+	background-color: #6EB1AB;
+	box-shadow: 5px 5px 10px black;
+	
+}
+
+/* jumbotron */
+.jumbotron-custom {
+	border-radius: 5px;
+	padding: 10px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#2D2D2D;
+	border:solid 2px black;
+	margin-top:px;
+}
+
+
+/* orange knapp  */
+	
+	.btn-custom22{
+	color: black;
+	background-color:#F3B747;
+	border-color: #7E7E7E;
+	box-shadow: 1px 1px 7px black;
+	border-radius:3px;
+}
+
+	.btn-custom22:hover{
+		color:grey;
+	}
+	
+	
+
+
+/* Mobilanpassad */
+      @media (max-width: 800px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;  
+        }
+		
+		.jumbotron-custom{
+		width: 100%;
+		
+		}
+		
+				
+		
+		
+}
+
+
+      @media (max-width: 998px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;  
+        }
+		
+		.jumbotron-custom{
+		width: 100%;
+		
+		}
+		
+				
+		
+		
+}
