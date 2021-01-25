@@ -59,7 +59,10 @@ body {
 	padding-right:10px;
 }
 
+.row{
+	
 
+}
 
 
 
@@ -86,7 +89,7 @@ body {
 	border-radius: 4px;
 	padding-top:10px;
 	width: 100%;
-	margin-top:2rem;
+	margin-top:1rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
@@ -102,12 +105,12 @@ body {
 h1{
 	text-align:center;
 }
-h3{
+h4{
 	text-align:center;
 	padding:10px;
 	font-weight:400;
-	margin-bottom:20px;
-	color:black;
+	
+	color:#7F7F7F;
 	
 }
 
